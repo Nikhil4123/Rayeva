@@ -438,7 +438,7 @@ cd frontend && npm run dev
 | Variable | Description | Example |
 |----------|-------------|---------|
 | `PORT` | Express server port | `5000` |
-| `MONGO_URI` | MongoDB connection string | `mongodb+srv://user:pass@cluster.mongodb.net/rayeva` |
+| `MONGO_URI` | MongoDB connection string | `mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database>` |
 | `REDIS_URL` | Redis connection URL | `redis://localhost:6379` |
 | `JWT_SECRET` | JWT signing secret (32+ chars recommended) | `change-me-in-production-32-chars` |
 | `SARVAM_API_KEY` | Sarvam AI API key | `sk_v0_...` |
